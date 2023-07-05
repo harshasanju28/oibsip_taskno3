@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="myDIV" class="header">
+      <h1>My To Do List</h1>
+      <img
+        src="https://blog.teamup.com/wp-content/uploads/2021/12/todo-header.png"
+        alt=""
+        height="150px"
+        width="250px"
+      />
+      <input type="text" id="myInput" placeholder="Things to do....." />
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+      <li>Breakfast at 9</li>
+      <li class="checked">Attend Meeting at 10</li>
+      <li>Car Service</li>
+      <li>Buy Groceries</li>
+      <li>Call Mom</li>
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
